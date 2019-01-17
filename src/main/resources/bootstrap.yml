@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: EurekaTertiaryServer
+  cloud:
+    config: 
+      uri: http://config.responsible-nrg.com
+  profiles:
+    active: eureka-tertiary
+
+
+           
